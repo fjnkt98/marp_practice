@@ -1,0 +1,6 @@
+{
+  "markdown.marp.themes": [
+    "./hoge.css",
+    "https://raw.githubusercontent.com/kaisugi/marp-theme-academic/main/themes/academic.css"
+  ]
+}

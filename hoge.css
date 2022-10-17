@@ -1,0 +1,75 @@
+/* @theme hoge */
+/*
+Refer to this: https://iroiroyaru.netlify.app/2021-05-14_marp/
+*/
+
+@import "gaia";
+
+section::after,
+footer {
+  color: white;
+  background-color: #03a9f4;
+  height: 45px;
+  margin-bottom: 0px;
+  font-size: 60%;
+  padding: 0px 20px 0px 20px;
+  font-weight: 400;
+}
+
+section {
+  color: #212121;
+  background-color: #fafafa;
+  font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN",
+    "Hiragino Sans", Meiryo, sans-serif;
+}
+
+section.top {
+  background-repeat: no-repeat;
+  background-size: 600px;
+  background-position-x: center;
+  background-position-y: 180px;
+}
+
+section.top h1 {
+  color: #03a9f4;
+  font-size: 2rem;
+  margin-top: 260px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+section.top h2 {
+  font-size: 0.8rem;
+  margin-top: 0px;
+  text-align: right;
+  font-weight: 500;
+}
+
+section.normal {
+  padding: 50px;
+}
+
+section.normal h1 {
+  color: #000000;
+  font-size: 1.4rem;
+  border-bottom: 2px solid #03a9f4;
+  margin-bottom: -15px;
+}
+
+section.normal h2 {
+  font-size: 1.1rem;
+}
+section.normal h3 {
+  font-size: 1rem;
+}
+
+section.normal h4 {
+  font-size: 1rem;
+}
+
+section.normal li,
+oi,
+p {
+  font-size: 0.8rem;
+  font-weight: 500;
+}
